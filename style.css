@@ -17,13 +17,19 @@ a {
     font-size: 18px;
 }
 
+.hero, .info {
+    padding: 0px 240px;
+}
+
+/* Hero */
+
 .hero {
     background-color: #1F2937;
-    padding: 16px 240px;
 }
 
 .header {
     display: flex;
+    padding-top: 16px;
 }
 
 .logo {
@@ -76,4 +82,31 @@ a {
     flex: 0;
     width: 480px;
     height: auto;
+}
+
+/* Information */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+    gap: 32px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.info-pics {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic {
+    height: 120px;
+    width: 120px;
 }
