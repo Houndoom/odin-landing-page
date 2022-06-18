@@ -101,12 +101,25 @@ a {
     color: #1F2937;
 }
 
+.info-pics-list {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    text-align: center;
+    gap: 8px;
+}
+
 .info-pics {
     display: flex;
     justify-content: space-between;
+    gap: 48px;
+    font-size: 12px;
 }
 
 .pic {
-    height: 120px;
-    width: 120px;
+    aspect-ratio: 1 / 1;
+    border: #3882F6;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
 }
